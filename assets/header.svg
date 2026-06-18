@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" font-family="'Trebuchet MS', 'Segoe UI', Verdana, sans-serif">
+  <defs>
+    <linearGradient id="fire" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cc00ff"><animate attributeName="stop-color" values="#cc00ff;#ff4400;#ffcc00;#cc00ff" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="0.5" stop-color="#ff4400"><animate attributeName="stop-color" values="#ff4400;#ffcc00;#cc00ff;#ff4400" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#ffcc00"><animate attributeName="stop-color" values="#ffcc00;#cc00ff;#ff4400;#ffcc00" dur="6s" repeatCount="indefinite"/></stop>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.4 0; 0.4 0; -0.4 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="ember" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffcc00"/><stop offset="0.5" stop-color="#ff4400"/><stop offset="1" stop-color="#ff440000"/></radialGradient>
+    <style>
+      .bg{fill:#04000e} .sub{fill:#ffcc00} .tag{fill:#00ddff}
+      @media (prefers-color-scheme: light){ .bg{fill:#fdf1e3} .sub{fill:#b87400} .tag{fill:#0c6f8c} }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="4" class="bg"/>
+
+  <g fill="url(#ember)">
+    <circle r="4" cx="150" cy="300"><animate attributeName="cy" values="310;-20" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/></circle>
+    <circle r="3" cx="340" cy="300"><animate attributeName="cy" values="310;-20" dur="9s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <circle r="5" cx="880" cy="300"><animate attributeName="cy" values="310;-20" dur="8s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <circle r="3" cx="1040" cy="300"><animate attributeName="cy" values="310;-20" dur="6.5s" begin="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6.5s" begin="2.2s" repeatCount="indefinite"/></circle>
+    <circle r="4" cx="620" cy="300"><animate attributeName="cy" values="310;-20" dur="10s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="10s" begin="3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <text x="600" y="150" text-anchor="middle" font-size="78" font-weight="900" letter-spacing="10" fill="url(#fire)" filter="url(#glow)">TAKSHEEL SAINI
+    <animate attributeName="opacity" values="0.82;1;0.82" dur="3.5s" repeatCount="indefinite"/></text>
+  <text x="600" y="205" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="11" class="sub">THE PRIMORDIAL CHAOS DRAGON
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="4.5s" repeatCount="indefinite"/></text>
+  <rect x="360" y="228" width="480" height="3" rx="1.5" fill="url(#fire)"><animate attributeName="width" values="0;480;0" dur="6s" repeatCount="indefinite"/><animate attributeName="x" values="600;360;600" dur="6s" repeatCount="indefinite"/></rect>
+  <text x="600" y="262" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="4" class="tag">AI / ML ENGINEER  ·  PRIVACY-FIRST  ·  LOCAL-FIRST LLMs  ·  AGENTS  ·  MCP</text>
+</svg>

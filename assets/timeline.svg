@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" width="1000" height="540" font-family="'Trebuchet MS', 'Segoe UI', Verdana, sans-serif">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cc00ff"/><stop offset="0.5" stop-color="#ff4400"/><stop offset="1" stop-color="#ffcc00"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 -0.3; 0 0.3; 0 -0.3" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .card{fill:#070011} .yr{fill:#ffcc00} .org{fill:#ff7a3c} .role{fill:#bfe6ff} .hd{fill:#ff4400}
+      @media (prefers-color-scheme: light){ .card{fill:#fff6ec} .yr{fill:#b87400} .org{fill:#c23a00} .role{fill:#1a5e7a} .hd{fill:#c23a00} }
+    </style>
+  </defs>
+
+  <rect width="1000" height="540" rx="14" class="card"/>
+  <text x="170" y="38" font-size="20" font-weight="900" letter-spacing="3" class="hd" filter="url(#glow)">⚔ FORGE OF TRIALS — EXPERIENCE</text>
+
+  <rect x="148.5" y="60" width="3" height="448" rx="1.5" fill="url(#line)" filter="url(#glow)"/>
+  <circle r="5" cx="150" fill="#ffcc00" filter="url(#glow)"><animate attributeName="cy" values="60;508;60" dur="6.5s" repeatCount="indefinite"/></circle>
+
+  <g font-size="15">
+    <circle cx="150" cy="84" r="7" fill="#ff4400" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="138" y="89" text-anchor="end" font-weight="800" class="yr">2026</text>
+    <text x="178" y="82" font-weight="800" class="org">InterraIT</text>
+    <text x="178" y="99" class="role">AI Developer · Trainee → Full-Time (from Jul 2026) · Noida</text>
+
+    <circle cx="150" cy="140" r="7" fill="#ff4400" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2.4s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <text x="138" y="145" text-anchor="end" font-weight="800" class="yr">2025</text>
+    <text x="178" y="138" font-weight="800" class="org">Edunet Foundation</text>
+    <text x="178" y="155" class="role">AI Developer · UpLiftAI · 4-tier AI pipeline (Sep–Oct)</text>
+
+    <circle cx="150" cy="196" r="7" fill="#ff4400" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2.4s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <text x="138" y="201" text-anchor="end" font-weight="800" class="yr">2025</text>
+    <text x="178" y="194" font-weight="800" class="org">Cisco Networking Academy</text>
+    <text x="178" y="211" class="role">Cybersecurity Intern · ranked 1 of 40 / 528 (Jun–Aug)</text>
+
+    <circle cx="150" cy="252" r="7" fill="#ff4400" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2.4s" begin="0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <text x="138" y="257" text-anchor="end" font-weight="800" class="yr">2025</text>
+    <text x="178" y="250" font-weight="800" class="org">Cadera Infotech</text>
+    <text x="178" y="267" class="role">Software Engineer · StrangerConnect · WebRTC P2P (May–Jul)</text>
+
+    <circle cx="150" cy="308" r="7" fill="#ff4400" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2.4s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <text x="138" y="313" text-anchor="end" font-weight="800" class="yr">2025</text>
+    <text x="178" y="306" font-weight="800" class="org">Engineers India Ltd</text>
+    <text x="178" y="323" class="role">AI Developer Trainee · RAG chatbot · local LLMs (May–Jun)</text>
+
+    <circle cx="150" cy="364" r="7" fill="#ff4400" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2.4s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" begin="1.5s" repeatCount="indefinite"/></circle>
+    <text x="138" y="369" text-anchor="end" font-weight="800" class="yr">2023</text>
+    <text x="178" y="362" font-weight="800" class="org">Acmegrade</text>
+    <text x="178" y="379" class="role">Cyber Security &amp; Ethical Hacking Intern (Jun–Aug)</text>
+
+    <circle cx="150" cy="420" r="7" fill="#ff4400" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2.4s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" begin="1.8s" repeatCount="indefinite"/></circle>
+    <text x="138" y="425" text-anchor="end" font-weight="800" class="yr">2023</text>
+    <text x="178" y="418" font-weight="800" class="org">Dept. of Telecommunications</text>
+    <text x="178" y="435" class="role">Regional Coordination · Government (Jun)</text>
+
+    <circle cx="150" cy="476" r="7" fill="#ff4400" filter="url(#glow)"><animate attributeName="r" values="6;9;6" dur="2.4s" begin="2.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" begin="2.1s" repeatCount="indefinite"/></circle>
+    <text x="138" y="481" text-anchor="end" font-weight="800" class="yr">2022</text>
+    <text x="178" y="474" font-weight="800" class="org">Eco Roots Foundation</text>
+    <text x="178" y="491" class="role">Student Intern · Volunteer (Aug–Oct)</text>
+  </g>
+</svg>
