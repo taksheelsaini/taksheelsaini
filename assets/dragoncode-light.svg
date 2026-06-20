@@ -2,7 +2,7 @@
   <defs>
     <filter id="dglow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
-      .term{fill:#0a0014} .bar{fill:#1c1330} .def{fill:#cfd8e6} .kw{fill:#ff5fae} .at{fill:#7fd4ff} .st{fill:#ffcc66} .cm{fill:#7a8aa0}
+      .term{fill:#fbf3ea} .bar{fill:#efe2d2} .def{fill:#2a2140} .kw{fill:#c01b74} .at{fill:#11627f} .st{fill:#9a6b00} .cm{fill:#8a7a66}
     </style>
   </defs>
 

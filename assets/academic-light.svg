@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" width="1000" height="470" font-family="'SFMono-Regular', Consolas, monospace">
+  <defs>
+    <linearGradient id="abar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cc00ff"/>
+      <stop offset="0.55" stop-color="#ff4400"/>
+      <stop offset="1" stop-color="#ffcc00"/>
+    </linearGradient>
+    <linearGradient id="afire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cc00ff"><animate attributeName="stop-color" values="#cc00ff;#ff4400;#ffcc00;#cc00ff" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#ffcc00"><animate attributeName="stop-color" values="#ffcc00;#cc00ff;#ff4400;#ffcc00" dur="6s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <filter id="aglow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .card{fill:#fff6ec} .lab{fill:#3a1d00} .track{fill:#ecdcc6} .note{fill:#11627f} .gold{fill:#b87400}
+    </style>
+    <clipPath id="aclip"><rect x="2" y="2" width="996" height="466" rx="16"/></clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="996" height="466" rx="16" class="card"/>
+  <rect x="6" y="6" width="988" height="458" rx="13" fill="none" stroke="url(#afire)" stroke-width="2" filter="url(#aglow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/></rect>
+
+  <text x="40" y="54" font-size="22" font-weight="900" letter-spacing="1" fill="url(#afire)" filter="url(#aglow)">🎓 ACADEMIC RECORD — AMITY DUAL DEGREE (BCA + MCA)</text>
+  <text x="40" y="80" font-size="13.5" class="note">Semester-wise SGPA · Sep 2021 – Jul 2026</text>
+
+  <!-- bars: label + track + value bar -->
+  <g font-size="14">
+    <!-- helper rows -->
+    <g class="lab"><text x="40" y="118">SEM 1</text><text x="40" y="148">SEM 2</text><text x="40" y="178">SEM 3</text><text x="40" y="208">SEM 4</text><text x="40" y="238">SEM 5</text><text x="40" y="268">SEM 6</text><text x="40" y="298">SEM 7</text><text x="40" y="328">SEM 8</text><text x="40" y="358">SEM 9</text><text x="40" y="388">SEM 10</text></g>
+    <!-- tracks -->
+    <g class="track">
+      <rect x="120" y="106" width="620" height="14" rx="7"/><rect x="120" y="136" width="620" height="14" rx="7"/><rect x="120" y="166" width="620" height="14" rx="7"/><rect x="120" y="196" width="620" height="14" rx="7"/><rect x="120" y="226" width="620" height="14" rx="7"/><rect x="120" y="256" width="620" height="14" rx="7"/><rect x="120" y="286" width="620" height="14" rx="7"/><rect x="120" y="316" width="620" height="14" rx="7"/><rect x="120" y="346" width="620" height="14" rx="7"/><rect x="120" y="376" width="620" height="14" rx="7"/>
+    </g>
+    <!-- value bars (width = sgpa/10 * 620) -->
+    <g fill="url(#abar)">
+      <rect x="120" y="106" height="14" rx="7" width="563"/>
+      <rect x="120" y="136" height="14" rx="7" width="546"/>
+      <rect x="120" y="166" height="14" rx="7" width="525"/>
+      <rect x="120" y="196" height="14" rx="7" width="558"/>
+      <rect x="120" y="226" height="14" rx="7" width="547"/>
+      <rect x="120" y="256" height="14" rx="7" width="564"/>
+      <rect x="120" y="286" height="14" rx="7" width="572"/>
+      <rect x="120" y="316" height="14" rx="7" width="522"/>
+      <rect x="120" y="346" height="14" rx="7" width="578"/>
+      <rect x="120" y="376" height="14" rx="7" width="558"/>
+    </g>
+    <!-- scores -->
+    <g class="gold" font-weight="700">
+      <text x="752" y="118">9.08</text><text x="752" y="148">8.81</text><text x="752" y="178">8.47</text><text x="752" y="208">9.00</text><text x="752" y="238">8.82</text><text x="752" y="268">9.10</text><text x="752" y="298">9.22</text><text x="752" y="328">8.42</text><text x="752" y="358">9.33</text><text x="752" y="388">9.00</text>
+    </g>
+    <!-- highest marker on SEM 9 -->
+    <text x="812" y="358" font-size="12.5" font-weight="700" fill="#ff4400">◄ HIGHEST</text>
+    <text x="812" y="388" font-size="12.5" class="note">Jun 2026</text>
+
+    <!-- continuous shimmer sweeping across the bars -->
+    <rect x="120" y="100" width="60" height="296" fill="#ffffff" opacity="0.10" clip-path="url(#aclip)">
+      <animate attributeName="x" values="120;680;120" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <text x="40" y="430" font-size="17" font-weight="900" fill="url(#afire)" filter="url(#aglow)">★ FINAL CGPA: 8.92  ·  First Division with Distinction</text>
+  <text x="40" y="454" font-size="12.5" class="note">Prudence School — Sr. Secondary 75% (2021)   ·   Presidium School — Secondary 83% (2019)</text>
+</svg>

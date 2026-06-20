@@ -1,7 +1,11 @@
 <div align="center">
 
 <!-- ░░░ CUSTOM ANIMATED HEADER BANNER (self-authored SVG · assets/header.svg) ░░░ -->
-<img src="./assets/header.svg" width="100%" alt="Taksheel Saini — The Primordial Chaos Dragon"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/header.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+  <img src="./assets/header.svg" width="100%" alt="Taksheel Saini — The Primordial Chaos Dragon"/>
+</picture>
 
 <!-- ░░░ TYPING ANIMATION ░░░ -->
 <a href="https://taksheel.vercel.app">
@@ -27,7 +31,11 @@
 
 <div align="center">
 
-<img src="./assets/codex.svg" width="100%" alt="The Primordial Codex — the world of Taksheel Saini"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/codex.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/codex-light.svg">
+  <img src="./assets/codex.svg" width="100%" alt="The Primordial Codex — the world of Taksheel Saini"/>
+</picture>
 
 </div>
 
@@ -35,7 +43,11 @@
 
 <div align="center">
 
-<img src="./assets/whoami.svg" width="100%" alt="About Taksheel Saini — AI/ML engineer, privacy-first builder, open to opportunities"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/whoami.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/whoami-light.svg">
+  <img src="./assets/whoami.svg" width="100%" alt="About Taksheel Saini — AI/ML engineer, privacy-first builder, open to opportunities"/>
+</picture>
 
 </div>
 
@@ -47,7 +59,11 @@
 
 <div align="center">
 
-<img src="./assets/dragoncode.svg" width="100%" alt="Taksheel Saini as code — dev environment, stack and focus"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/dragoncode.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/dragoncode-light.svg">
+  <img src="./assets/dragoncode.svg" width="100%" alt="Taksheel Saini as code — dev environment, stack and focus"/>
+</picture>
 
 </div>
 
@@ -154,7 +170,11 @@
 
 <div align="center">
 
-<img src="./assets/timeline.svg" width="100%" alt="Experience timeline — Eco Roots (2022) to InterraIT (2026)"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/timeline.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-light.svg">
+  <img src="./assets/timeline.svg" width="100%" alt="Experience timeline — Eco Roots (2022) to InterraIT (2026)"/>
+</picture>
 
 </div>
 
@@ -279,9 +299,17 @@
 
 <div align="center">
 
-<img src="./assets/academic.svg" width="100%" alt="Academic record — Amity BCA+MCA, semester-wise SGPA, CGPA 8.92, First Division with Distinction"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/academic.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/academic-light.svg">
+  <img src="./assets/academic.svg" width="100%" alt="Academic record — Amity BCA+MCA, semester-wise SGPA, CGPA 8.92, First Division with Distinction"/>
+</picture>
 
-<img src="./assets/languages.svg" width="100%" alt="Languages — Hindi (native), English (professional), Spanish (elementary)"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="./assets/languages.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/languages-light.svg">
+  <img src="./assets/languages.svg" width="100%" alt="Languages — Hindi (native), English (professional), Spanish (elementary)"/>
+</picture>
 
 </div>
 

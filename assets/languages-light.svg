@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 210" width="1000" height="210" font-family="'Trebuchet MS', 'Segoe UI', Verdana, sans-serif">
+  <defs>
+    <linearGradient id="lbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cc00ff"/><stop offset="0.55" stop-color="#ff4400"/><stop offset="1" stop-color="#ffcc00"/>
+    </linearGradient>
+    <linearGradient id="lfire" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cc00ff"><animate attributeName="stop-color" values="#cc00ff;#ff4400;#ffcc00;#cc00ff" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#ffcc00"><animate attributeName="stop-color" values="#ffcc00;#cc00ff;#ff4400;#ffcc00" dur="6s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <filter id="lglow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .card{fill:#fff6ec} .name{fill:#3a1d00} .tier{fill:#11627f} .track{fill:#ecdcc6} .star{fill:#c98a00} .dim{fill:#d8c8b0}
+    </style>
+    <clipPath id="lclip"><rect x="2" y="2" width="996" height="206" rx="16"/></clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="996" height="206" rx="16" class="card"/>
+  <rect x="6" y="6" width="988" height="198" rx="13" fill="none" stroke="url(#lfire)" stroke-width="2" filter="url(#lglow)"><animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/></rect>
+
+  <text x="40" y="52" font-size="22" font-weight="900" letter-spacing="1" fill="url(#lfire)" filter="url(#lglow)">🌐 TONGUE OF FLAMES — LANGUAGES</text>
+
+  <g>
+    <!-- English · Full Professional · 5 stars -->
+    <text x="40" y="98" font-size="16" font-weight="700" class="name">🇬🇧 English</text>
+    <text x="200" y="98" font-size="13" class="tier">Full Professional</text>
+    <text x="470" y="98" font-size="15" class="star">★★★★★</text>
+    <rect x="600" y="86" width="340" height="13" rx="6.5" class="track"/>
+    <rect x="600" y="86" height="13" rx="6.5" width="332" fill="url(#lbar)"/>
+    <!-- Hindi · Professional Working · 4 stars -->
+    <text x="40" y="138" font-size="16" font-weight="700" class="name">🇮🇳 Hindi</text>
+    <text x="200" y="138" font-size="13" class="tier">Professional Working</text>
+    <text x="470" y="138" font-size="15"><tspan class="star">★★★★</tspan><tspan class="dim">★</tspan></text>
+    <rect x="600" y="126" width="340" height="13" rx="6.5" class="track"/>
+    <rect x="600" y="126" height="13" rx="6.5" width="272" fill="url(#lbar)"/>
+    <!-- Spanish · Professional Working · 4 stars -->
+    <text x="40" y="178" font-size="16" font-weight="700" class="name">🇪🇸 Spanish</text>
+    <text x="200" y="178" font-size="13" class="tier">Professional Working</text>
+    <text x="470" y="178" font-size="15"><tspan class="star">★★★★</tspan><tspan class="dim">★</tspan></text>
+    <rect x="600" y="166" width="340" height="13" rx="6.5" class="track"/>
+    <rect x="600" y="166" height="13" rx="6.5" width="272" fill="url(#lbar)"/>
+
+    <rect x="600" y="80" width="50" height="105" fill="#ffffff" opacity="0.12" clip-path="url(#lclip)">
+      <animate attributeName="x" values="600;890;600" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
