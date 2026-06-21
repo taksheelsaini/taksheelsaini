@@ -7,7 +7,6 @@
     <filter id="cglow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
       .card{fill:#0a0014} .l1{fill:#ffcc00} .l2{fill:#ff8a4c} .l3{fill:#7fd4ff}
-      @media (prefers-color-scheme: light){ .card{fill:#fff6ec} .l1{fill:#b87400} .l2{fill:#c23a00} .l3{fill:#11627f} }
     </style>
   </defs>
 

@@ -10,7 +10,6 @@
     <radialGradient id="ember" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffcc00"/><stop offset="0.5" stop-color="#ff4400"/><stop offset="1" stop-color="#ff440000"/></radialGradient>
     <style>
       .bg{fill:#04000e} .sub{fill:#ffcc00} .tag{fill:#00ddff}
-      @media (prefers-color-scheme: light){ .bg{fill:#fdf1e3} .sub{fill:#b87400} .tag{fill:#0c6f8c} }
     </style>
   </defs>
 

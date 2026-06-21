@@ -11,13 +11,6 @@
       .body { fill:#e9ddff; }
       .accent { fill:#ff8a4c; }
       .cyan { fill:#7fd4ff; }
-      @media (prefers-color-scheme: light) {
-        .card { fill:#fff6ec; }
-        .head { fill:#3a1d00; }
-        .body { fill:#2a2140; }
-        .accent { fill:#c23a00; }
-        .cyan { fill:#11627f; }
-      }
     </style>
   </defs>
 

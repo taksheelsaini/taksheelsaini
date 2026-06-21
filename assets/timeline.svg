@@ -7,7 +7,6 @@
     <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
       .card{fill:#070011} .yr{fill:#ffcc00} .org{fill:#ff7a3c} .role{fill:#bfe6ff} .hd{fill:#ff4400}
-      @media (prefers-color-scheme: light){ .card{fill:#fff6ec} .yr{fill:#b87400} .org{fill:#c23a00} .role{fill:#1a5e7a} .hd{fill:#c23a00} }
     </style>
   </defs>
 

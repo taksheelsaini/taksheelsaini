@@ -12,9 +12,6 @@
     <filter id="aglow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
       .card{fill:#0a0014} .lab{fill:#ffe9c2} .track{fill:#241a33} .note{fill:#7fd4ff} .gold{fill:#ffcc00}
-      @media (prefers-color-scheme: light){
-        .card{fill:#fff6ec} .lab{fill:#3a1d00} .track{fill:#ecdcc6} .note{fill:#11627f} .gold{fill:#b87400}
-      }
     </style>
     <clipPath id="aclip"><rect x="2" y="2" width="996" height="466" rx="16"/></clipPath>
   </defs>

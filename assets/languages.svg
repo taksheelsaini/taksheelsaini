@@ -10,7 +10,6 @@
     <filter id="lglow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
     <style>
       .card{fill:#0a0014} .name{fill:#ffe9c2} .tier{fill:#7fd4ff} .track{fill:#241a33} .star{fill:#ffcc00} .dim{fill:#3a3550}
-      @media (prefers-color-scheme: light){ .card{fill:#fff6ec} .name{fill:#3a1d00} .tier{fill:#11627f} .track{fill:#ecdcc6} .star{fill:#c98a00} .dim{fill:#d8c8b0} }
     </style>
     <clipPath id="lclip"><rect x="2" y="2" width="996" height="206" rx="16"/></clipPath>
   </defs>
